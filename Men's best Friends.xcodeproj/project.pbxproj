@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		3E8782AE1BC41DE00052E5A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8782AD1BC41DE00052E5A1 /* main.m */; };
 		3E8782B11BC41DE00052E5A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8782B01BC41DE00052E5A1 /* AppDelegate.m */; };
-		3E8782B41BC41DE00052E5A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8782B31BC41DE00052E5A1 /* ViewController.m */; };
+		3E8782B41BC41DE00052E5A1 /* MBFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8782B31BC41DE00052E5A1 /* MBFViewController.m */; };
 		3E8782B71BC41DE00052E5A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E8782B51BC41DE00052E5A1 /* Main.storyboard */; };
 		3E8782B91BC41DE00052E5A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E8782B81BC41DE00052E5A1 /* Images.xcassets */; };
 		3E8782BC1BC41DE00052E5A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E8782BA1BC41DE00052E5A1 /* LaunchScreen.xib */; };
 		3E8782C81BC41DE00052E5A1 /* Men_s_best_FriendsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8782C71BC41DE00052E5A1 /* Men_s_best_FriendsTests.m */; };
+		3E8782D31BC420ED0052E5A1 /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8782D21BC420ED0052E5A1 /* MBFDog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		3E8782AD1BC41DE00052E5A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E8782AF1BC41DE00052E5A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E8782B01BC41DE00052E5A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3E8782B21BC41DE00052E5A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3E8782B31BC41DE00052E5A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E8782B21BC41DE00052E5A1 /* MBFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBFViewController.h; sourceTree = "<group>"; };
+		3E8782B31BC41DE00052E5A1 /* MBFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBFViewController.m; sourceTree = "<group>"; };
 		3E8782B61BC41DE00052E5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E8782B81BC41DE00052E5A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3E8782BB1BC41DE00052E5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3E8782C11BC41DE00052E5A1 /* Men's best FriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Men's best FriendsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8782C61BC41DE00052E5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E8782C71BC41DE00052E5A1 /* Men_s_best_FriendsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Men_s_best_FriendsTests.m; sourceTree = "<group>"; };
+		3E8782D11BC420ED0052E5A1 /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFDog.h; sourceTree = "<group>"; };
+		3E8782D21BC420ED0052E5A1 /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFDog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +86,10 @@
 			children = (
 				3E8782AF1BC41DE00052E5A1 /* AppDelegate.h */,
 				3E8782B01BC41DE00052E5A1 /* AppDelegate.m */,
-				3E8782B21BC41DE00052E5A1 /* ViewController.h */,
-				3E8782B31BC41DE00052E5A1 /* ViewController.m */,
+				3E8782D11BC420ED0052E5A1 /* MBFDog.h */,
+				3E8782D21BC420ED0052E5A1 /* MBFDog.m */,
+				3E8782B21BC41DE00052E5A1 /* MBFViewController.h */,
+				3E8782B31BC41DE00052E5A1 /* MBFViewController.m */,
 				3E8782B51BC41DE00052E5A1 /* Main.storyboard */,
 				3E8782B81BC41DE00052E5A1 /* Images.xcassets */,
 				3E8782BA1BC41DE00052E5A1 /* LaunchScreen.xib */,
@@ -219,7 +224,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E8782B41BC41DE00052E5A1 /* ViewController.m in Sources */,
+				3E8782D31BC420ED0052E5A1 /* MBFDog.m in Sources */,
+				3E8782B41BC41DE00052E5A1 /* MBFViewController.m in Sources */,
 				3E8782B11BC41DE00052E5A1 /* AppDelegate.m in Sources */,
 				3E8782AE1BC41DE00052E5A1 /* main.m in Sources */,
 			);

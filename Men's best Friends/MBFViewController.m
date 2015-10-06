@@ -6,16 +6,24 @@
 //  Copyright (c) 2015 Lina. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MBFViewController.h"
+#import "MBFDog.h"
 
-@interface ViewController ()
+@interface MBFViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MBFViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    MBFDog* myDog = [[MBFDog alloc] init];
+    myDog.name = @"nana";
+    myDog.age = 1;
+    myDog.breed = @"St. Bernald";
+    NSLog(@"My dog name is %@, age is %i and the breed is %@", myDog.name, myDog.age, myDog.breed);
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
