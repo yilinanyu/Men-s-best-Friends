@@ -15,5 +15,10 @@
 @property(nonatomic) int age;
 @property(nonatomic, strong) NSString *breed;
 @property(nonatomic, strong) UIImage *image;
-
+-(void)bark;
+-(void)barkaNumberofTime:(int)numberofTimes;
+-(int)ageInDogYearFromAge:(int)regularAge;
+-(void)numberBetweenOne:(int)integer;
+-(void)numberBetwwenTwo:(int)integer1 secondInteger:(int)integer2;
+-(int)factorialofNumber:(int)Number;
 @end
