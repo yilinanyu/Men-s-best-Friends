@@ -47,20 +47,25 @@
     [self.myDogs addObject:secondDog];
     [self.myDogs addObject:thirdDog];
     [self.myDogs addObject:forthDog];
-    
-    
-
-
-
-
-
-    
 
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)newDogBarButton:(UIBarButtonItem *)sender {
+    
+    int numberofDogs = [self.myDogs count];
+    int randomIndex = arc4random()% numberofDogs;
+    MBFDog *randomDogs = [self.myDogs objectAtIndex:randomIndex];
+    self.myImageView.image = randomDogs.image;
+    self.breedLabel.text = randomDogs.breed;
+    self.nameLabel.text = randomDogs.name;
+    sender.title = @"And Another";
 }
 
 @end
