@@ -20,6 +20,7 @@
 		3E8782BC1BC41DE00052E5A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E8782BA1BC41DE00052E5A1 /* LaunchScreen.xib */; };
 		3E8782C81BC41DE00052E5A1 /* Men_s_best_FriendsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8782C71BC41DE00052E5A1 /* Men_s_best_FriendsTests.m */; };
 		3E8782D31BC420ED0052E5A1 /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8782D21BC420ED0052E5A1 /* MBFDog.m */; };
+		3ED21A021C13AF2F0077AA1E /* MBFPuppy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED21A011C13AF2F0077AA1E /* MBFPuppy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		3E8782C71BC41DE00052E5A1 /* Men_s_best_FriendsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Men_s_best_FriendsTests.m; sourceTree = "<group>"; };
 		3E8782D11BC420ED0052E5A1 /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFDog.h; sourceTree = "<group>"; };
 		3E8782D21BC420ED0052E5A1 /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFDog.m; sourceTree = "<group>"; };
+		3ED21A001C13AF2F0077AA1E /* MBFPuppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFPuppy.h; sourceTree = "<group>"; };
+		3ED21A011C13AF2F0077AA1E /* MBFPuppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFPuppy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 				3E8782B21BC41DE00052E5A1 /* MBFViewController.h */,
 				3E8782B31BC41DE00052E5A1 /* MBFViewController.m */,
 				3E8782B51BC41DE00052E5A1 /* Main.storyboard */,
+				3ED21A001C13AF2F0077AA1E /* MBFPuppy.h */,
+				3ED21A011C13AF2F0077AA1E /* MBFPuppy.m */,
 				3E8782B81BC41DE00052E5A1 /* Images.xcassets */,
 				3E8782BA1BC41DE00052E5A1 /* LaunchScreen.xib */,
 				3E8782AB1BC41DE00052E5A1 /* Supporting Files */,
@@ -249,6 +254,7 @@
 				3E8782B41BC41DE00052E5A1 /* MBFViewController.m in Sources */,
 				3E8782B11BC41DE00052E5A1 /* AppDelegate.m in Sources */,
 				3E8782AE1BC41DE00052E5A1 /* main.m in Sources */,
+				3ED21A021C13AF2F0077AA1E /* MBFPuppy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

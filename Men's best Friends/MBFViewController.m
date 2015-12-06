@@ -8,6 +8,7 @@
 
 #import "MBFViewController.h"
 #import "MBFDog.h"
+#import "MBFPuppy.h"
 
 @interface MBFViewController ()
 
@@ -47,6 +48,15 @@
     [self.myDogs addObject:secondDog];
     [self.myDogs addObject:thirdDog];
     [self.myDogs addObject:forthDog];
+    MBFPuppy * littePuppy = [[MBFPuppy alloc] init];
+    [littePuppy givePuppyEyes];
+    //bark has been rewritten
+    [littePuppy bark];
+    littePuppy.name = @"big o";
+    littePuppy.breed = @"sdada";
+    littePuppy.image = [UIImage imageNamed:@"hahah.jpg"];
+    [self.myDogs addObject:littePuppy];
+    
 
 }
 
